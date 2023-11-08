@@ -1,2 +1,2 @@
-# n.bekzat.kz
+# animals-safari.io
 My first project on GitHub
