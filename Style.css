@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Merriweather:wght@900&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@500&display=swap');
+body{
+	background-image: url(africafon.jpg);
+}
+img{
+	height: 75px;
+	width: 70px;
+	margin-left: 10px;
+}
+main{
+	background: transparent;
+	backdrop-filter: blur(10px);
+	width: 95%;
+	height: 65px;
+	margin: 0 auto;
+	padding: 10px;
+	color: rgb(3, 153, 161);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+}
+nav{
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	color: rgb(3, 153, 161);
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 25px;
+	margin-top: 0;
+	transition: 0.5s;
+}
+nav ul li a:hover{
+	font-size: 20px;
+	color: lightyellow;
+	transition: 0.5s;
+}
+#savanna{
+	font-size: 180px;
+	font-family: 'Alumni Sans Inline One', sans-serif;
+	display: inline-block;
+	margin:20px 450px;
+	color:rgb(245, 208, 27);
+	transition: 0.5s;
+}
+#savanna:hover{
+	font-size: 200px;
+	margin: 20px 420px;
+	color: rgb(255, 212, 0);
+	transition: 0.5s;
+}
